@@ -18,7 +18,7 @@ name: Extract
 
 run: Expand-Archive ngrok.zip
 
-- name: Auth
+name: Auth
 
 run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
 
